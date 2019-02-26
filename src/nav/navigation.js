@@ -5,26 +5,24 @@ import About from '../pages/about';
 import Contact from '../pages/contact';
 import Projects from '../pages/projects';
 
-class Navigation extends Component{
+export default class Navigation extends Component {
   render(){
     return(
       <div>
         <nav>
-          <ul>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/about">About</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
-            <li><NavLink to="/projects">Projects</NavLink></li>
-          </ul>
+        
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
+
         </nav>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/projects" component={Projects} />
       </div>
-
 
     );
   }
 }
-export default Navigation;
