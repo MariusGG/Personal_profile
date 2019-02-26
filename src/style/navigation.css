@@ -1,0 +1,32 @@
+
+.nav-links {
+  position: sticky;
+  top: 0;
+  z-index: 1071;
+  min-height: 4rem;
+  background-color: #101010;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.nav-links ul {
+display: flex;
+margin-left: 100rem;
+float: right;
+}
+
+.nav-links li {
+  margin: 0rem 2rem;
+  width: 150px;
+}
+
+a {
+  font-family: -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  padding-right: 10rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  background-color: transparent;
+}
