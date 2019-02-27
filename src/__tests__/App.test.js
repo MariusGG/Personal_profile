@@ -27,4 +27,5 @@ describe('App', () => {
     const main = wrapper.find('Navigation')
     expect(main.length).toEqual(1)
   })
+  
 })

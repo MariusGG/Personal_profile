@@ -11,11 +11,13 @@ export default class Navigation extends Component {
     return(
       <div className='nav-bar'>
         <nav className='nav-links'>
+          <span className='initial'>MG</span>
+          <p className='name'>Marius (G) Guei</p>
           <ul>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/about">About</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
-            <li><NavLink to="/projects">Projects</NavLink></li>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
           </ul>
         </nav>
         <Route exact path="/" component={Home} />
