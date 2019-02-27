@@ -19,35 +19,49 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <nav>
-          <NavLink
-            activeClassName="active"
-            aria-current="page"
-            to="/"
+        <nav
+          className="nav-links"
+        >
+          <span
+            className="initial"
           >
-            Home
-          </NavLink>
-          <NavLink
-            activeClassName="active"
-            aria-current="page"
-            to="/about"
+            MG
+          </span>
+          <p
+            className="name"
           >
-            About
-          </NavLink>
-          <NavLink
-            activeClassName="active"
-            aria-current="page"
-            to="/contact"
-          >
-            Contact
-          </NavLink>
-          <NavLink
-            activeClassName="active"
-            aria-current="page"
-            to="/projects"
-          >
-            Projects
-          </NavLink>
+            Marius (G) Guei
+          </p>
+          <ul>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/about"
+            >
+              About
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/contact"
+            >
+              Contact
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/projects"
+            >
+              Projects
+            </NavLink>
+          </ul>
         </nav>,
         <Route
           component={[Function]}
@@ -70,6 +84,7 @@ ShallowWrapper {
           path="/projects"
         />,
       ],
+      "className": "nav-bar",
     },
     "ref": null,
     "rendered": Array [
@@ -79,93 +94,171 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/"
+            <span
+              className="initial"
             >
-              Home
-            </NavLink>,
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/about"
+              MG
+            </span>,
+            <p
+              className="name"
             >
-              About
-            </NavLink>,
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/contact"
-            >
-              Contact
-            </NavLink>,
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/projects"
-            >
-              Projects
-            </NavLink>,
+              Marius (G) Guei
+            </p>,
+            <ul>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/about"
+              >
+                About
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/contact"
+              >
+                Contact
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/projects"
+              >
+                Projects
+              </NavLink>
+            </ul>,
           ],
+          "className": "nav-links",
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "host",
             "props": Object {
-              "activeClassName": "active",
-              "aria-current": "page",
-              "children": "Home",
-              "to": "/",
+              "children": "MG",
+              "className": "initial",
             },
             "ref": null,
-            "rendered": "Home",
-            "type": [Function],
+            "rendered": "MG",
+            "type": "span",
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "host",
             "props": Object {
-              "activeClassName": "active",
-              "aria-current": "page",
-              "children": "About",
-              "to": "/about",
+              "children": "Marius (G) Guei",
+              "className": "name",
             },
             "ref": null,
-            "rendered": "About",
-            "type": [Function],
+            "rendered": "Marius (G) Guei",
+            "type": "p",
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "host",
             "props": Object {
-              "activeClassName": "active",
-              "aria-current": "page",
-              "children": "Contact",
-              "to": "/contact",
+              "children": Array [
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  to="/"
+                >
+                  Home
+                </NavLink>,
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  to="/about"
+                >
+                  About
+                </NavLink>,
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  to="/contact"
+                >
+                  Contact
+                </NavLink>,
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  to="/projects"
+                >
+                  Projects
+                </NavLink>,
+              ],
             },
             "ref": null,
-            "rendered": "Contact",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "activeClassName": "active",
-              "aria-current": "page",
-              "children": "Projects",
-              "to": "/projects",
-            },
-            "ref": null,
-            "rendered": "Projects",
-            "type": [Function],
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "Home",
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": "Home",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "About",
+                  "to": "/about",
+                },
+                "ref": null,
+                "rendered": "About",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "Contact",
+                  "to": "/contact",
+                },
+                "ref": null,
+                "rendered": "Contact",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "Projects",
+                  "to": "/projects",
+                },
+                "ref": null,
+                "rendered": "Projects",
+                "type": [Function],
+              },
+            ],
+            "type": "ul",
           },
         ],
         "type": "nav",
@@ -232,35 +325,49 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <nav>
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/"
+          <nav
+            className="nav-links"
+          >
+            <span
+              className="initial"
             >
-              Home
-            </NavLink>
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/about"
+              MG
+            </span>
+            <p
+              className="name"
             >
-              About
-            </NavLink>
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/contact"
-            >
-              Contact
-            </NavLink>
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/projects"
-            >
-              Projects
-            </NavLink>
+              Marius (G) Guei
+            </p>
+            <ul>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/about"
+              >
+                About
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/contact"
+              >
+                Contact
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/projects"
+              >
+                Projects
+              </NavLink>
+            </ul>
           </nav>,
           <Route
             component={[Function]}
@@ -283,6 +390,7 @@ ShallowWrapper {
             path="/projects"
           />,
         ],
+        "className": "nav-bar",
       },
       "ref": null,
       "rendered": Array [
@@ -292,93 +400,171 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <NavLink
-                activeClassName="active"
-                aria-current="page"
-                to="/"
+              <span
+                className="initial"
               >
-                Home
-              </NavLink>,
-              <NavLink
-                activeClassName="active"
-                aria-current="page"
-                to="/about"
+                MG
+              </span>,
+              <p
+                className="name"
               >
-                About
-              </NavLink>,
-              <NavLink
-                activeClassName="active"
-                aria-current="page"
-                to="/contact"
-              >
-                Contact
-              </NavLink>,
-              <NavLink
-                activeClassName="active"
-                aria-current="page"
-                to="/projects"
-              >
-                Projects
-              </NavLink>,
+                Marius (G) Guei
+              </p>,
+              <ul>
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  to="/"
+                >
+                  Home
+                </NavLink>
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  to="/about"
+                >
+                  About
+                </NavLink>
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  to="/contact"
+                >
+                  Contact
+                </NavLink>
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  to="/projects"
+                >
+                  Projects
+                </NavLink>
+              </ul>,
             ],
+            "className": "nav-links",
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "host",
               "props": Object {
-                "activeClassName": "active",
-                "aria-current": "page",
-                "children": "Home",
-                "to": "/",
+                "children": "MG",
+                "className": "initial",
               },
               "ref": null,
-              "rendered": "Home",
-              "type": [Function],
+              "rendered": "MG",
+              "type": "span",
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "host",
               "props": Object {
-                "activeClassName": "active",
-                "aria-current": "page",
-                "children": "About",
-                "to": "/about",
+                "children": "Marius (G) Guei",
+                "className": "name",
               },
               "ref": null,
-              "rendered": "About",
-              "type": [Function],
+              "rendered": "Marius (G) Guei",
+              "type": "p",
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "host",
               "props": Object {
-                "activeClassName": "active",
-                "aria-current": "page",
-                "children": "Contact",
-                "to": "/contact",
+                "children": Array [
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    to="/"
+                  >
+                    Home
+                  </NavLink>,
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    to="/about"
+                  >
+                    About
+                  </NavLink>,
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    to="/contact"
+                  >
+                    Contact
+                  </NavLink>,
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    to="/projects"
+                  >
+                    Projects
+                  </NavLink>,
+                ],
               },
               "ref": null,
-              "rendered": "Contact",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "activeClassName": "active",
-                "aria-current": "page",
-                "children": "Projects",
-                "to": "/projects",
-              },
-              "ref": null,
-              "rendered": "Projects",
-              "type": [Function],
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "Home",
+                    "to": "/",
+                  },
+                  "ref": null,
+                  "rendered": "Home",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "About",
+                    "to": "/about",
+                  },
+                  "ref": null,
+                  "rendered": "About",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "Contact",
+                    "to": "/contact",
+                  },
+                  "ref": null,
+                  "rendered": "Contact",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "Projects",
+                    "to": "/projects",
+                  },
+                  "ref": null,
+                  "rendered": "Projects",
+                  "type": [Function],
+                },
+              ],
+              "type": "ul",
             },
           ],
           "type": "nav",

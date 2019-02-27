@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="Marius Guei"
+          className="myImage"
+          src="D50_8017.jpg"
+        />,
+        <p
+          className="short-about-me"
+        >
+          I’m a full stack software developer with experience developing applications in Ruby and Javascript.
+          <br />
+          Adopted the Agile methodology at Makers Academy, along with many other processes.
+          <br />
+          <br />
+          I'm excited to learn new technologies and techniques across the full technical stack. I strive to learn something new every day and put those new skills to use as soon as possible.
+          <br />
+          <br />
+          Browse my website to get to know more about me and feel free to get intouch.
+          <br />
+          I've built this site using the stack below:
+          <Icons />
+        </p>,
+      ],
+      "className": "home-compo",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Marius Guei",
+          "className": "myImage",
+          "src": "D50_8017.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "I’m a full stack software developer with experience developing applications in Ruby and Javascript.",
+            <br />,
+            "Adopted the Agile methodology at Makers Academy, along with many other processes.",
+            <br />,
+            <br />,
+            "I'm excited to learn new technologies and techniques across the full technical stack. I strive to learn something new every day and put those new skills to use as soon as possible.",
+            <br />,
+            <br />,
+            "Browse my website to get to know more about me and feel free to get intouch.",
+            <br />,
+            "I've built this site using the stack below:",
+            <Icons />,
+          ],
+          "className": "short-about-me",
+        },
+        "ref": null,
+        "rendered": Array [
+          "I’m a full stack software developer with experience developing applications in Ruby and Javascript.",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Adopted the Agile methodology at Makers Academy, along with many other processes.",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "I'm excited to learn new technologies and techniques across the full technical stack. I strive to learn something new every day and put those new skills to use as soon as possible.",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Browse my website to get to know more about me and feel free to get intouch.",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "I've built this site using the stack below:",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="Marius Guei"
+            className="myImage"
+            src="D50_8017.jpg"
+          />,
+          <p
+            className="short-about-me"
+          >
+            I’m a full stack software developer with experience developing applications in Ruby and Javascript.
+            <br />
+            Adopted the Agile methodology at Makers Academy, along with many other processes.
+            <br />
+            <br />
+            I'm excited to learn new technologies and techniques across the full technical stack. I strive to learn something new every day and put those new skills to use as soon as possible.
+            <br />
+            <br />
+            Browse my website to get to know more about me and feel free to get intouch.
+            <br />
+            I've built this site using the stack below:
+            <Icons />
+          </p>,
+        ],
+        "className": "home-compo",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Marius Guei",
+            "className": "myImage",
+            "src": "D50_8017.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "I’m a full stack software developer with experience developing applications in Ruby and Javascript.",
+              <br />,
+              "Adopted the Agile methodology at Makers Academy, along with many other processes.",
+              <br />,
+              <br />,
+              "I'm excited to learn new technologies and techniques across the full technical stack. I strive to learn something new every day and put those new skills to use as soon as possible.",
+              <br />,
+              <br />,
+              "Browse my website to get to know more about me and feel free to get intouch.",
+              <br />,
+              "I've built this site using the stack below:",
+              <Icons />,
+            ],
+            "className": "short-about-me",
+          },
+          "ref": null,
+          "rendered": Array [
+            "I’m a full stack software developer with experience developing applications in Ruby and Javascript.",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Adopted the Agile methodology at Makers Academy, along with many other processes.",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "I'm excited to learn new technologies and techniques across the full technical stack. I strive to learn something new every day and put those new skills to use as soon as possible.",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Browse my website to get to know more about me and feel free to get intouch.",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "I've built this site using the stack below:",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

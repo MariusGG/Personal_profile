@@ -19,11 +19,14 @@ describe('Home', () =>{
     expect(div.length).toEqual(1)
   })
 
-  // it('renders the main image', () => {
-  //   const image = wrapper.find('img')
-  //    expect(image.src).toMatchSnapshot('D150_8017.jpg')
-  // })
-  it('render some text', () => {
-    expect(wrapper.find('[className="sht-about"]').text().toEqual("I’m a full stack software developer")).toEqual(true);
+  it('renders the p tag', () => {
+    const paragraph = wrapper.find('[className="short-about-me"]')
+    expect(paragraph.length).toEqual(1);
   })
+
+  it('renders the icons component', () => {
+    const icons = wrapper.find('Icons')
+    expect(icons.length).toEqual(1)
+  })
+
 })
